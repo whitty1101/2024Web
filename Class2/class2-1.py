@@ -21,4 +21,20 @@ new_data=Car('blue')
 ptr.next=new_data
 new_data.next=head
 ptr=new_data
+#新結點插入第一個新節點之前，成為環串列的首節點
+new=Car('black')
+new.next=head
+
+ptr=head
+while ptr.next !=head:
+    ptr=ptr.next
+ptr.next=new
+head=new
+#新節點插入單向串鍊在中間
+new=Car("pink")
+ptr=head
+while ptr.color!= "red":
+    ptr=ptr.next
+new.next=ptr.next
+ptr.next=new
 traverse(head)

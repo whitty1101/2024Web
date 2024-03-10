@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="/formprocess.php" method="post"
+            <---表單--->
+            <h3>帳號 <input type="text" name="account" maxlength="12" minlength="3" size="12" placeholder="insert here" required></h3> 
+            <h3>密碼 <input type="password" name="password"maxlength="12" minlength="3" size="12" placeholder="insert here" required></h3> <br>
+            <h3>choose fruit you like</h3>
+            <input type="checkbox" name="like" value="apple"> apple<br>
+            <input type="checkbox" name="like" value="banna"> banna<br>
+            <input type="checkbox" name="like" value="pieapple"> pieapple<br>
+            <input type="checkbox" name="like" value="strawberry"> strawberry<br>
+            <h3>選擇飲料甜度</h3>
+            <input type="radio" name="sugar" value="many" > full
+            <input type="radio" name="sugar" value="medium" > medium
+            <input type="radio" name="sugar" value="less" > less<br>
+            <h3>fill the form</h3>
+            <h3>name: <input type="text" name="name" maxlength="12" minlength="3" size="12" placeholder="insert here" required></h3> 
+            <h3>phone number: <input type="tel" name="phone number" maxlength="12" minlength="3" size="12" placeholder="insert here" required></h3> 
+            <h3>e-mail: <input type="email" name="e-mail" maxlength="12" minlength="3" size="12" placeholder="insert here" required></h3> 
+            <h3>website: <input type="url" name="url" maxlength="12" minlength="3" size="12" placeholder="insert here" required></h3> 
+            <input type="date" value="2020-4-20" min="2020-04-1" max="2022-4-30" step="5">
+            <input type="time" value="06:00" min="02:00" max="22:00" step="5"><br>
+            <input type="submit" value="send"><br>
+            <input type="reset"value="reset"><br>
+            <input type="file" accept="image/*,.pdf"><br>
+            <textarea name="mytext" row="6" cols="40" required>text</textarea><br>
+            <select>
+                <option value="none">please choose a option</option>
+                <option value="dog">dog</option>
+                <option value="cat">cat</option>
+                <option value="">hamster</option>
+                <option value="">parrot</option>
+                <option value="">goldish</option>
+                <option disabled>spider </option>
+            </select>
+        </form>
+    </body>
+</html>
