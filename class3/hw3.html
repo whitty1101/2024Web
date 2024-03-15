@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="/formprocess.php" method="post"
+            <---表單--->
+            <h3>Name: <input type="text" name="account" maxlength="12" minlength="3" size="12" placeholder="Insert here" required></h3> 
+            <h3>E-mail: <input type="email" name="e-mail" maxlength="12" minlength="3" size="12" placeholder="Insert here" required></h3> 
+            <h3>comments: </h3>
+            <textarea name="Comments" row="6" cols="40" placeholder="Your Comments"></textarea><br>
+            <h3>Your birthday</h3>
+            <input type="date" value="2020-4-20" min="2020-04-1" max="2022-4-30" step="5">
+            <input type="time" value="06:00" min="02:00" max="22:00" step="5"><br>
+            <h3>Subjects you are interested in</h3>
+            <input type="radio" name="subjects" value="HTML"> HTML<br>
+            <input type="radio" name="subjects" value="CSS"> CSS<br>
+            <input type="radio" name="subjects" value="JavaScript"> JavaScript<br>
+            <br>
+            <input type="submit" value="send">
+            <input type="reset"value="reset"><br>
+        </form>
+    </body>
+</html>
