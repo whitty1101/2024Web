@@ -1,0 +1,39 @@
+<!DOCTYPE html></DOCTYPE>
+<html>
+
+    <head>
+        <link href="styles/hwStyles.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+        <h2 id='title'>2024 前端春季班 課程心得表單</h2>
+        <form action="/formprocess.php" method="post">
+        <p><h3 class="subtitle">*About You*</h3>
+        <strong>Name: </strong><br>
+        <input type="text" name="name" value="Your Name"><br>
+        <strong>Email: </strong><br>
+        <input type="Email" value="Your Email"><br>
+        <strong>Birthday and Time: </strong><br>
+        <input type="date" value="2023-12-31" min="1995-01-30" max="2024-01-30">
+        <input type="time" value="06:00" min="00:00" max="23:59"><br></p>
+        <hr>
+        <p><h3 class="subtitle">*About Courses*</h3>
+        <strong>Please select courses you don't understand</strong><br>
+        <input type="checkbox" value="class1">Class1: HTML basic into and elements<br>
+        <input type="checkbox" value="class2">Class2: HTML image, list, and tables<br>
+        <input type="checkbox" value="class3">Class3: HTML form and input types<br><br>
+        <strong>Most interested in?</strong><br>
+        <input type="radio" name="interest" value="HTML">HTML<br>
+        <input type="radio" name="interest" value="css">css<br>
+        <input type="radio" name="interest" value="JavaScript">JavaScript<br>
+        </p>
+        <hr>
+        <p><h3 class="subtitle">*Comments*</h3>
+        <textarea class="comments" rows="5" cols="20">Your comments</textarea><br></p>
+        <input class="btn" type="submit" value="submit form">
+        <input class="btn" type="reset" value="reset form">
+        </form>
+
+    </body>
+
+</html>

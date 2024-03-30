@@ -1,0 +1,7 @@
+body{
+    background:url(C:/Users/Harrison/Documents/Python_2024spring/class4/styles/logo_tree.png) rgb(197,231,211) no-repeat fixed center; background-size: 50%;
+}
+
+#title {color:#003d1f;}
+.subtitle {color:#01814A;}
+ .btn {background-color: lightseagreen; border-color:maroon ;}
