@@ -37,4 +37,16 @@ while ptr.color!= "red":
     ptr=ptr.next
 new.next=ptr.next
 ptr.next=new
+
+ptr=head
+while ptr.next !=head:
+    ptr=ptr.next
+head=head.next
+ptr.next=head
+
+ptr=head
+while ptr.next.color!="pink":
+   ptr= ptr.next
+ptr.next=ptr.next.next
+
 traverse(head)

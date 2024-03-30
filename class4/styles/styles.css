@@ -1,0 +1,21 @@
+
+p, H3 {
+    color:GRAY;
+}
+#my-id{
+    color:lightcoral;
+}
+#my-love{
+    color:lightblue;
+}
+.urgent{
+    color:darkred;
+}
+#customer-review{
+    border-color:darkslateblue;
+    background-color: rgb(187, 226, 187);
+    color: #F75000;
+}
+body{background-color: wheat;}
+body{background-clip: url("class4/styles/TokyoGhoulLove4kLiveWallpaper.mp4");}
+
