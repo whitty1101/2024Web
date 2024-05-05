@@ -1,0 +1,19 @@
+.outer{
+    background-image: url("C:/Users/Harrison/Documents/Python_2024spring/class9/logo_tree.png");
+    background-repeat: no-repeat;
+    border:black solid 1px;
+    width:500px;
+    height:500px;
+    background-position: center;
+    background-size: contain;
+
+}
+.outer1{
+    background-image: url("C:/Users/Harrison/Documents/Python_2024spring/class9/logo_tree.png");
+    background-repeat: no-repeat;
+    border:black solid 1px;
+    width:500px;
+    height:500px;
+    background-position: center;
+    background-size: cover;
+}

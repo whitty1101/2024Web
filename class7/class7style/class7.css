@@ -1,0 +1,36 @@
+.container{
+     width: 500px;
+    display: grid; background-color: black;
+    grid-template: 1fr 1fr / repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+    height: 300px
+}
+.box{
+    color: white; font-size: 1.5rem;
+    text-align: center;
+}
+.box1{
+    height: 300px;
+    width: 400px;
+    border: #696969 1px solid;
+    display:grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: 100px 100px;
+    grid-template-areas:
+        "A A A A"
+        "B B B C"
+        "B B B D";
+}
+.item1{
+    grid-area: A;
+    background-color: #afa;
+}
+.item2{
+    grid-area: B;
+    background-color: #aaf;
+}
+.item3{
+    grid-area: C;
+    background-color: #aff;
+}

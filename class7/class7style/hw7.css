@@ -1,0 +1,26 @@
+
+
+
+.box1{
+   height: 923px;
+   width: 1900px;
+   display:grid;
+   grid-template-columns: repeat(1, 470px);
+   grid-template-rows: 50px 470px;
+   grid-template-areas:
+       "A A A C"
+       "B B B C"
+       "B B B C";
+}
+.item1{
+   grid-area: A;
+   background-color: white;
+}
+.item2{
+   grid-area: B;
+   background-color: white;
+}
+.item3{
+   grid-area: C;
+   background-color: rgb(0, 90, 18);
+}

@@ -1,0 +1,11 @@
+.father {width: 350px; height: 200px; 
+    display: flex; flex-wrap: wrap-reverse;
+    justify-content: space-between; align-content: center;
+    flex-direction: row;  
+    background-color: lightgray;} 
+.child {width: 100px; height: 50px;}
+.red {background-color: red;} 
+.yellow {background-color: yellow; align-self: center;} 
+.blue {background-color: blue; align-self: center;} 
+.purple {background-color: purple;} 
+.orange {background-color: orange; }

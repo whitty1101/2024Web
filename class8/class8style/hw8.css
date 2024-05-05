@@ -1,0 +1,25 @@
+
+
+.out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 3px darkseagreen solid;
+}
+
+.in {
+    display: none;
+}
+
+.out:hover .in {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border: 3px light seagreen dashed;
+}
+
+img {
+    height: 100px;
+}
